@@ -1,0 +1,276 @@
+/*font-family: 'Pacifico', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+body{
+    font-family:'Montserrat', sans-serif;
+}
+/*navigation*/
+#my-navigation{
+    background-color: white;
+    border: none;
+    margin: 0;
+}
+#my-navigation .navbar-toggle{
+    display: block;
+}
+.brand h1{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    color: salmon;
+    position: relative;
+    bottom: 20px;
+    margin-left: 550px;
+}
+.brand button{
+    float: right;
+}
+
+/*navigation end*/
+/*banner start*/
+.banner{
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+}
+.banner .heading{
+    width: 50%;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+.heading h2{
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(97, 169, 214);
+}
+.heading p{
+
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(117, 114, 114);
+}
+.heading button{
+    background-color: salmon;
+    border: 0;
+    color: white;
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*four section start*/
+.four-section{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 10px;
+    padding: 70px 0;
+    color: gray;
+}
+.image img{
+    width: 100%;
+    border-radius: 100%;
+}
+.four-section .top{
+    margin-bottom: 60px;
+}
+.top h4, .bottom h4{
+    font-size: 15px;
+    color: rgb(97, 169, 214);
+    font-weight: 600;
+}
+.align{
+    text-align: right;
+}
+/*four section end*/
+/*pink-section start*/
+.pink-section{
+    width: 100%;
+    background-color: salmon;
+}
+.feugait{
+    width: 40%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.feugait h1{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.feugait P{
+    font-size: 10px;
+    color: rgb(212, 208, 208);
+    font-weight: lighter;
+}
+.feugait h6{
+    font-size: 10px;
+    color: white;
+    margin-top: 40px;
+}
+/*pink-section end*/
+/*three-section start*/
+.three-section{
+    width: 70%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+.image1 img{
+    width: 100%;
+}
+.three-section .one-section{
+    border: 1px solid gray;
+}
+.one-section h5{
+    color: rgb(97, 169, 214);
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.one-section p{
+    font-size: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    color: rgb(167, 164, 164);
+}
+/*three-section end*/
+/*footer start*/
+.footer{
+    width: 100%;
+    background-color:  rgb(97, 169, 214);
+}
+.footer .black{
+    padding: 50px 0;
+}
+.foot{
+    width: 55%;
+    margin: 0 auto;
+}
+.footer h1{
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+}
+.foot span{
+    color: salmon;
+    margin-right: 5px;
+}
+.foot h6{
+    float: left;
+    color: rgb(235, 233, 233);
+    padding: 0 12px;
+}
+.foot p{
+    font-size: 10px;
+    color: rgb(235, 233, 233);
+    margin-top: 30px;
+}
+hr{
+    width: 70%;
+    margin-top: 30px;
+}
+/*media query*/
+@media (max-width:1200px) {
+    .my-container h1{
+        margin-left: 440% ;
+    }
+    .foot{
+        width: 67%;
+    }
+}
+@media (max-width:1000px) {
+    .my-container h1{
+        margin-left: 440% ;
+    }
+    .banner .heading{
+        width: 60%;
+    }
+    .three-section{
+        width: 90%;
+    }
+    .four-section{
+        width: 90%;
+    }
+    .feugait{
+        width: 55%;
+    }
+    .three-section{
+        width: 95%;
+    }
+    .foot{
+        width:90% ;
+    }
+}
+@media (max-width:760px) {
+
+    .my-container h1{
+        margin-left: 720% ;
+    }
+    #my-navigation .logo{
+        float: left;
+    }
+    .my-container h1{
+        margin-left: 30%;
+    }
+    #my-navigation .brand{
+        width: 65%;
+        float: right;   
+    }
+    #my-navigation .navbar-toggle{
+        display: block;
+        float: left;
+    }
+    .four-section .top{
+        text-align: center; 
+    }
+    .four-section .bottom{
+        text-align: center;
+    }
+    .image img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .three-section{
+        width: 50%;
+        padding: 30px 0;
+    }
+    .one-section{
+        margin-bottom: 20px;
+    }  
+    .footer h6{
+        padding: 0 8px;
+    }
+}
+@media (max-width:500px) {
+    #my-navigation .logo{
+        width: 30%;
+        float: left;
+    }
+    #my-navigation .brand{
+        width: 65%;
+        float: right;   
+    }
+    .my-container h1{
+        margin-left: 1% ;
+    }
+    .banner .heading{
+        width: 80%;
+    }
+    .feugait{
+        width: 80%;
+    }
+    .four-section{
+        width: 80%;
+    }
+    .image img{
+        margin-left: 80px;
+    }
+    .three-section{
+        width: 80%;
+    }
+    .foot{
+        width: 90%;
+    }
+    .foot span{
+        margin-left: 30px;
+        text-align: justify;
+    }
+}
